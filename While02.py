@@ -6,4 +6,14 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    k=0
+    n=len(s)
+    while i<n:
+        if s[i].isalpha():
+            k=k+1
+        i=i+1
+        
+    return k
+s=str(input())
+print(main(s))
