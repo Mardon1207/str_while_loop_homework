@@ -23,6 +23,6 @@ def main(s):
             k=k+1
         i=i+1
         
-    return k
+    return n-k
 s=str(input())
 print(main(s))
